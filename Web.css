@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 1rem 0;
+}
+
+header .logo {
+    display: inline-block;
+    margin-left: 2rem;
+}
+
+header nav {
+    display: inline-block;
+    float: right;
+    margin-right: 2rem;
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin: 0 1rem;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+.hero {
+    background: url('https://cdn.leonardo.ai/users/335fcec1-cf83-4ce6-a027-a32f5a9497b3/generations/b6678603-0e80-47c5-9243-beb3cbb373fc/Leonardo_Phoenix_Create_a_horizontal_background_banner_for_a_w_2.jpg') no-repeat center center/cover;
+    color: white;
+    text-align: center;
+    padding: 4rem 0;
+}
+
+.hero h1 {
+    font-size: 3rem;
+}
+
+.hero button {
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.hero button:hover {
+    background-color: #555;
+}
+
+main {
+    padding: 2rem;
+}
+
+.category-listings h2, .latest-listings h2 {
+    margin-bottom: 1rem;
+    font-size: 2rem;
+}
+
+.categories, .listings {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 2rem;
+}
+
+.category, .listing-item {
+    text-align: center;
+    padding: 1rem;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    width: 22%;
+}
+
+.category img, .listing-item img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #333;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
